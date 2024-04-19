@@ -4,7 +4,7 @@ body {
 }
 .section{
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
 }
 
 header{
@@ -28,3 +28,8 @@ header img{
   text-align: center;
 }
 
+.section img{
+  max-width: 50%;
+  height: auto;
+
+}
