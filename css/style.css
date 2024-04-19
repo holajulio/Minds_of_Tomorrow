@@ -33,3 +33,31 @@ header img{
   height: auto;
 
 }
+.section2{
+  display: flex;
+  align-items: center;
+}
+.section2 img{
+  max-width: 25%;
+  height: auto;
+  margin: 5%; 
+}
+
+.section4{
+  display: flex;
+  align-items: center;
+}
+.section4 img{
+  max-width: 35%;
+  height: auto; 
+}
+footer{
+  display: flex;
+  align-items: center;
+}
+.foo1{
+  width: 50%;
+}
+.foo2{
+  width: 25%;
+}
