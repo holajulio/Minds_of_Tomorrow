@@ -1,0 +1,24 @@
+body {
+    max-width: 800px;
+    margin: auto;
+  }
+  header{
+    border-width: 1px;
+    margin: 1px;
+    display: flex;
+  }
+  header img{
+    width: 1000px;
+    height: 500px;
+  }
+  .titulo{
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: black;
+        font-size: 80px;
+        font-weight: bold;
+        text-align: center;
+  }
+  
