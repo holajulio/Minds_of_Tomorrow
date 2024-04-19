@@ -2,10 +2,6 @@ body {
   max-width: 800px;
   margin: auto;
 }
-.section{
-  display: flex;
-  align-items: center;
-}
 
 header{
   border-width: 1px;
@@ -27,6 +23,11 @@ header img{
   font-weight: bold;
   text-align: center;
 }
+.section{
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
 
 .section img{
   max-width: 50%;
@@ -36,13 +37,29 @@ header img{
 .section2{
   display: flex;
   align-items: center;
+  background-color: #25eda5;
 }
+.section2 p{
+ margin: 14%;
+ height: auto;
+ text-align:center ;
+}
+
 .section2 img{
   max-width: 25%;
   height: auto;
   margin: 5%; 
 }
+.section3{
+  display: flex;
+  align-items: center;
+}
 
+.section3 img{
+  max-width: 50%;
+  height: auto;
+
+}
 .section4{
   display: flex;
   align-items: center;
@@ -51,6 +68,11 @@ header img{
   max-width: 35%;
   height: auto; 
 }
+.section5{
+  text-align: center;
+  background-color: #46a6fc;
+}
+
 footer{
   display: flex;
   align-items: center;
