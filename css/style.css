@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+*{
+  font-size: 12px;
+}
+
 body {
   max-width: 800px;
   margin: auto;
@@ -9,12 +13,12 @@ body {
   font-style: normal;
 }
 h2{
-  font-size: 40px;
+  font-size: 3rem;
   font-weight: bold;
 }
 
 .parafo{
-  font-size: 30px;
+  font-size: 2rem;
 }
 
 header{
@@ -32,7 +36,7 @@ header img{
   left: 50%;
   transform: translate(-50%, -50%);
   color: black;
-  font-size: 80px;
+  font-size: 5rem;
   font-weight: bold;
   text-align: center;
 }
@@ -90,10 +94,11 @@ header img{
 }
 .section4{
   display: flex;
-  align-items: center;
+  justify-content: space-between;
+  width: 25%;
 }
 .section4 img{
-  max-width: 25%;
+  width: 100%;
   height: auto; 
 }
 .section5{
@@ -116,7 +121,57 @@ footer{
   width: 25%;
 }
 
-@media (max-width: 700px){
-  
+@media screen and (max-width: 700px){
+  header{
+    justify-content: space-between;
+  }
 
-}
+  header img{
+    width: 100%;
+  }
+
+  h2{
+    font-size: 3rem;    
+  }
+
+  .section{
+    display: block;
+  }
+
+  .section2{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+  .celdas-imagenes{
+    width: 50%;
+  }  
+
+  .section3{
+    display: block;
+  }
+
+  .section4{
+    justify-content: space-between;
+    display: flex;
+    width: 50%;
+  }
+
+  .section5{
+    justify-content: space-between;
+  }
+  footer{
+    display: flex;
+  }
+
+  .foo1{
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 2%;
+  }
+  .foo2{
+    width: 50%;
+    padding-right: 2%;
+  }
+} 
